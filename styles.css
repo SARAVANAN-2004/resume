@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.profile-photo {
+    width: 175px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.name-links {
+    text-align: center;
+    flex-grow: 1;
+    position: relative;
+}
+
+.name {
+    font-size: 2em;
+    margin: 0;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1em;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links i {
+    margin-right: 5px;
+}
+
+.section {
+    margin: 20px;
+}
+
+.section h1 {
+    font-family: 'Georgia', serif;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.section h2 {
+    font-family: 'Georgia', serif;
+    color: #333;
+    font-size: 1.3em;
+}
+
+.section h3 {
+    font-family: 'Georgia', serif;
+    color: #555;
+    font-size: 1.1em;
+}
+
+.section p {
+    font-family: 'Georgia', serif;
+    color: #555;
+    font-size: 1.1em;
+}
+
+.section ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.section li {
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+}
